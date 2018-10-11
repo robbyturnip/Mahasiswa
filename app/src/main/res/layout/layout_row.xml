@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="2dp"
+    app:layout_goneMarginBottom="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="8dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nim"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="2dp"
+                android:text="this for nim" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/nim"
+                android:layout_marginTop="3dp"
+                android:text="this for name" />
+
+            <TextView
+                android:id="@+id/prodi"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/nama"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"
+                android:text="this for prodi" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
